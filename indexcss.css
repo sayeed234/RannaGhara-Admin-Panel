@@ -1,0 +1,38 @@
+.statbox-sp{
+	height: 220px;
+	padding: 10px;
+	position: relative;
+	margin-bottom: 28px;
+}
+	
+	.statbox-sp .number {
+		font-size: 40px;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	
+	.statbox-sp .title {
+		font-size: 16px;
+		position: absolute;
+		top: 50px;
+		right: 10px;
+	}
+
+	.statbox-sp .footer {
+		background: rgba(0,0,0,.1);
+		background-color: #19FFFFFF;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		padding: 10px;
+	}
+	
+	.statbox-sp .footer:hover {
+		background: rgba(0,0,0,.2);
+	}
+	
+	.statbox-sp .footer a {
+		color: #fff;
+		text-decoration: none;
+	}
